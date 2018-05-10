@@ -1,0 +1,125 @@
+<html>
+<head>
+	<title>Blog Title</title>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+	<link rel="stylesheet" type="text/css" href="../css/mycss.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Muli" rel="stylesheet">
+
+	<link rel="icon" type="images/jpg" href="images/mypic2.jpg">
+</head>
+<body>
+	<div class="row">
+		<div class="col-sm-3 col-md-3 pic-container">
+			<button class="togglebtn" onclick="show()">
+				<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+			</button>
+
+			<img src="../images/mypic2.jpg" class="pic">
+
+			<div class="nav hid" id="hide">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="pages/about.html">About Me</a></li>
+					<li><a href="pages/contactme.html">Contact Me</a></li>
+				</ul>
+			</div>
+
+			<div class="name_cont">
+				<h1>Ashish Gupta</h1>
+				<h4>Web Developer</h4>
+				<img src="../images/signature.png" class="signature-sml">
+				<hr style="border:0.25px dashed #ABABAB">
+
+				<button class="social fb"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></button>
+				<button class="social insta"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></button>
+				<button class="social quora"><i class="fa fa-quora fa-2x" aria-hidden="true"></i></button>
+
+			</div>
+		</div>
+
+		<div class="col-sm-8 col-md-8 col-xs-12">
+			<div class="maincont">
+				<h2><a href="#"> Back to Home</a></h2> <p class="envelope"><i class="fa fa-bookmark fa-3x" aria-hidden="true"></i></p>
+					<hr style="border-top: 0.1em dashed #ABABAB">
+					<div class="posts">
+							<h1>Title of the blog goes here and it is the main heading while viewing the blog. so here it goes.</font></h1>
+
+							<p class="blog-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut ratione similique temporibus tempora dicta soluta? Qui hic, voluptatem nemo quo corporis dignissimos voluptatum debitis cumque fugiat mollitia quasi quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut ratione similique.
+							</p>
+
+							<button class="like">
+								<i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
+							</button>
+
+							<p class="stats">
+								<i class="fa fa-eye" aria-hidden="true" style="color:#00688B"></i> 123
+
+								<i class="fa fa-heart" aria-hidden="true" style="color: #FF6A6A"></i> 321
+							</p>
+					</div>
+					<div class="newsletter">
+					<hr style="border-top:0.1em dashed #ABABAB">
+					<form action="#" method="POST" style="margin-top: 70px;">
+						<center>
+							<input type="text" name="email" class="txt-lg" placeholder="Email Address"><button type="submit" name="subscribe" class="btn-lg">Submit</button>	
+							<p>
+							Subscribe To My Weekly Newsletter
+							</p>
+						</center>	
+					</form>
+					</div>
+		</div>
+		<div class="footer">
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="about.html">About Me</a></li>
+						<li><a href="contactme.html">Contact Me</a></li>
+					</ul>
+					<p>
+						&copy; All Rights Reserved
+					</p>
+					<h4>Designed By <font style="color: #1abc9c;">Ashish Gupta</font> </h4><br>
+					<img src="../images/signature.png" class="signature">
+			</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+		function show()
+		{
+			var status = document.getElementById("hide");
+			if (status.className=="nav hid") 
+			{
+				status.className="";
+				status.className="nav show";
+			}
+			else
+			{
+				status.classname="";
+				status.className="nav hid";
+			}
+		}
+
+
+	</script>
+</html>

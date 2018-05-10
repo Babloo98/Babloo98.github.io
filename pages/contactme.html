@@ -1,0 +1,146 @@
+<html>
+<head>
+	<title>Contact Me</title>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+	<link rel="stylesheet" type="text/css" href="../css/mycss.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Muli" rel="stylesheet">
+
+	<link rel="icon" type="images/jpg" href="images/bm.jpg">
+
+	<style type="text/css">
+		::-webkit-input-placeholder
+		{
+			color: #B0B0B0;
+			font-family: 'Muli', sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<div class="row">
+		<div class="col-sm-3 col-md-3 pic-container">
+			<button class="togglebtn" onclick="show()">
+				<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+			</button>
+
+			<img src="../images/mypic2.jpg" class="pic">
+
+			<div class="nav hid" id="hide">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="contactme.html">Contact Me</a></li>
+				</ul>
+			</div>
+
+			<div class="name_cont">
+				<h1>Babloo</h1>
+				<h4>Web Developer</h4>
+				<hr style="border:0.25px dashed #ABABAB">
+
+				<button class="social fb"><i class="fa fa-facebook fa-2x" aria-hidden="true"><a href="https://www.facebook.com/babloo.mishra.756"></a></i></button>
+				<button class="social insta"><i class="fa fa-instagram fa-2x" aria-hidden="true"><a href="https://www.instagram.com/babloo90/"></a></i></button>
+				<button class="social quora"><i class="fa fa-quora fa-2x" aria-hidden="true"><a href="<a href="https://www.quora.com/profile/Babloo-Mishra-1"></a></i></button>
+
+			</div>
+		</div>
+
+		<div class="col-sm-8 col-md-8 col-xs-12">
+			<div class="maincont">
+				<h2>Contact Me</h2> <p class="envelope"><i class="fa fa-mobile fa-3x" aria-hidden="true"></i></p>
+					<hr style="border-top: 0.1em dashed #ABABAB">
+					<div class="row">
+						<div class="col-sm-4 contact">
+							<i class="fa fa-phone fa-3x" aria-hidden="true" style="color: #FFA500"></i>
+							<p>+91-9871736723</p>
+						</div>
+						<div class="col-sm-4 contact">
+							<i class="fa fa-envelope-open-o fa-3x" aria-hidden="true" style="color: #CD1076"></i>
+							<p>babloomshr@gmail.com</p>
+						</div>
+						<div class="col-sm-4 contact">
+							<i class="fa fa-telegram fa-3x" aria-hidden="true" style="color: #00B2EE"></i>
+							<p>@Babloo98</p>
+						</div>
+					</div>
+
+					<form action="#" method="POST">
+						<input type="text" name="name" class="txt-sml" placeholder="Name">
+						<input type="text" name="email" class="txt-sml" placeholder="Email">
+						<input type="text" name="mobno" class="txt-sml" placeholder="Mobile Number">
+						<input type="text" name="palce" class="txt-sml" placeholder="Where are You From?">
+
+						<textarea class="txtarea" name="msg" placeholder="Your Message..."></textarea>
+
+						<center>
+								<button class="load-more" type="submit">
+									<font style="font-family: 'Dancing Script', cursive;">Send</font>
+								</button>
+						</center>
+					</form>
+					<hr style="border-top: 0.1em dashed #ABABAB">
+
+					<div class="newsletter">
+					<form action="#" method="POST" style="margin-top: 70px;">
+						<center>
+							<input type="text" name="email" class="txt-lg" placeholder="Email Address"><button type="submit" name="subscribe" class="btn-lg">Submit</button>	
+							<p>
+							Subscribe To My Weekly Newsletter
+							</p>
+						</center>	
+					</form>
+					</div>
+			</div>
+			<div class="footer">
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="contactme.html">Contact Me</a></li>
+					</ul>
+					<p>
+						&copy; All Rights Reserved
+					</p>
+					<h4>Designed By <font style="color: #1abc9c;">Babloo Mishra</font> </h4><br>
+					
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+<script type="text/javascript">
+		function show()
+		{
+			var status = document.getElementById("hide");
+			if (status.className=="nav hid") 
+			{
+				status.className="";
+				status.className="nav show";
+			}
+			else
+			{
+				status.classname="";
+				status.className="nav hid";
+			}
+		}
+
+
+	</script>
+</html>
